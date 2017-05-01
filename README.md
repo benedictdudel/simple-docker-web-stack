@@ -86,9 +86,8 @@ administration of MySQL over the Web
 - **Username:** web
 - **Password:** pass
 
+### Mailhog
+
 MailHog is an email testing tool for developers.
 
-### Elasticsearch (Work in Progress)
-
-Elasticsearch is a search engine based on Lucene. It provides a distributed,
-multitenant-capable full-text search engine.
+- **Port:** 8025

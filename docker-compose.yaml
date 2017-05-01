@@ -46,3 +46,8 @@ services:
             - PMA_HOST=mysql
             - PMA_USER=web
             - PMA_PASSWORD=pass
+
+    mailhog:
+        image: mailhog/mailhog:v1.0.0
+        ports:
+            - 8025:8025
