@@ -19,10 +19,10 @@ services:
         ports:
             - 3306:3306
         environment:
-            - MYSQL_ROOT_PASSWORD=banana
-            - MYSQL_DATABASE=lamp
-            - MYSQL_USER=lamp
-            - MYSQL_PASSWORD=banana
+            - MYSQL_ROOT_PASSWORD=pass
+            - MYSQL_DATABASE=web
+            - MYSQL_USER=web
+            - MYSQL_PASSWORD=pass
         volumes:
             - ./docker/volumes/mysql:/var/lib/mysql
 

@@ -60,9 +60,9 @@ MySQL is an open-source relational database management system (RDBMS).
 
 - **Host:** localhost
 - **Port:** 3306
-- **Username:** docker
-- **Password:** docker
-- **Database:** docker
+- **Username:** web
+- **Password:** pass
+- **Database:** web
 
 ### Redis
 
