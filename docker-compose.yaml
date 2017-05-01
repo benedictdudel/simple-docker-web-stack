@@ -37,3 +37,12 @@ services:
         image: memcached:1.4-alpine
         ports:
             - 11211:11211
+
+    phpmyadmin:
+        image: phpmyadmin/phpmyadmin:4.6
+        ports:
+            - 8080:80
+        environment:
+            - PMA_HOST=mysql
+            - PMA_USER=web
+            - PMA_PASSWORD=pass

@@ -77,10 +77,14 @@ Memcached is a free & open source, high-performance, distributed memory object c
 
 - **Port:** 11211
 
+### phpMyAdmin
+
 phpMyAdmin is a free software tool written in PHP, intended to handle the
 administration of MySQL over the Web
 
-### Mailhog (Work in Progress)
+- **Port:** 8080
+- **Username:** web
+- **Password:** pass
 
 MailHog is an email testing tool for developers.
 
