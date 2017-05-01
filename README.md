@@ -71,7 +71,11 @@ cache and message broker.
 
 - **Port:** 6379
 
-### phpMyAdmin (Work in Progress)
+### Memcached
+
+Memcached is a free & open source, high-performance, distributed memory object caching system.
+
+- **Port:** 11211
 
 phpMyAdmin is a free software tool written in PHP, intended to handle the
 administration of MySQL over the Web
